@@ -1,0 +1,4 @@
+//crea una tabla llamada Calendar_Table que tiene una columna Date desde el 01 de 2000 a hoy.
+
+Calendar_Table = CALENDAR(DATE(2000,01,01), TODAY() )
+

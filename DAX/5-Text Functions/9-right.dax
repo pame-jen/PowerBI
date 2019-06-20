@@ -1,0 +1,2 @@
+= RIGHT('Sheet1'[StockLocation], 2)
+

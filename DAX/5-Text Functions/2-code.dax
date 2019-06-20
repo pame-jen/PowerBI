@@ -1,0 +1,8 @@
+CodeResult = CODE("A")
+
+//resultado deberia ser 65
+
+CodeResult = CODE("!")
+
+//resultado deberia ser 33
+

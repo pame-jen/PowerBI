@@ -1,0 +1,10 @@
+=DataTable("Name", STRING,  
+               "Region", STRING  
+               ,{  
+                        {" User1","East"},  
+                        {" User2","East"},  
+                        {" User3","West"},  
+                        {" User4","West"},  
+                        {" User4","East"}  
+                }  
+           )

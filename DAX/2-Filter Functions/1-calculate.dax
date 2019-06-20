@@ -1,0 +1,12 @@
+
+Ejemplo1:
+Large Transactions = CALCULATE(
+                                     SUM(TransactionData[Revenue]),
+	                                 TransactionData[Revenue] > 10000
+	                            )
+
+
+Ejemplo2:
+
+ColumnaconCalculate = CALCULATE(SUM(Sheet1[DiferenciaTiempo]),Sheet1[DiferenciaTiempo]>50000)
+

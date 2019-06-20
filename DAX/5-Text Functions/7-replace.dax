@@ -1,0 +1,6 @@
+//parametro 1: string desde donde comienza el caracter
+//parametro 2: posicion del caracter en el texto antiguo
+//parametro 3: cantidad de caracteres que se quieren reemplazar
+//parametro 4: 
+= REPLACE('Sheet1'[StockLocation],1, 2, "textoinsertado")
+

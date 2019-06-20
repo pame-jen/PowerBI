@@ -1,0 +1,20 @@
+//para poder ejecutar esta funcion, es necesario tener al menos una columna en el modelo que tenga
+//tipo date de forma que el CALENDARAUTO funcione.
+
+DAX_Fechas = 
+VAR BaseCalendar =
+    CALENDARAUTO (6)
+
+RETURN
+    GENERATE (
+        BaseCalendar,
+        VAR BaseDate = [Date]
+        VAR YearDate = YEAR (BaseDate)
+        VAR MonthNumber = MONTH (BaseDate)
+        RETURN ROW(
+            "Dia ", BaseDate,
+            "Año", YearDate,
+            "Numero de Mes", MonthNumber,
+            "Mes año con formato", FORMAT (BaseDate, "mmm yy")
+        )
+    )

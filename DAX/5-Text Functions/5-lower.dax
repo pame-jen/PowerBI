@@ -1,0 +1,4 @@
+= LOWER('New Products'[ProductCode])
+
+//los numeros no son afectados
+

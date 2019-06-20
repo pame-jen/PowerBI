@@ -1,0 +1,4 @@
+Table1[CalcColumn] = COMBINEVALUES(",",Table1[Column1], Table1[Column2])
+
+Table2[CalcColumn] = COMBINEVALUES(",", Table2[Column1], Table2[Column2])
+

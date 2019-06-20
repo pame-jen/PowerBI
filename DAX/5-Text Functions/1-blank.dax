@@ -1,0 +1,10 @@
+=IF( 
+    SUM(InternetSales_USD[SalesAmount_USD])= 0   , 
+    BLANK()   , 
+    SUM(ResellerSales_USD[SalesAmount_USD])/SUM(InternetSales_USD[SalesAmount_USD])  
+)
+
+
+
+
+

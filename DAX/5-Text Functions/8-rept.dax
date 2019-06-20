@@ -1,0 +1,7 @@
+//repite una cantidad de veces el mismo string
+
+//primer parametro: texto
+//segundo parametro: cantidad de veces
+
+= REPT("texto a repetir", 3)
+

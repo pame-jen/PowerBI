@@ -1,0 +1,13 @@
+//se aplicaran dos filtros
+//ambos filtros se utilizan mediante una funcion logica de &&
+
+CountAXQtyFilter2ExpressionsJuntas
+
+= COUNTAX(
+    FILTER(
+        Sheet1,
+        Sheet1[StockLocation] = "EMEA"
+        && Sheet1[Qty]=23 
+    ), 
+    [Qty]
+)
